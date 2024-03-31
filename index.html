@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    
+    <div class="container" id="dashboardPage" style="display: none;">
+        <h1>Welcome to Task Manager Dashboard</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter task">
+            <button type="submit" id="add-task-btn">Add Task</button>
+        </form>
+        <div class="task-panel" id="activeTasks">
+            <h2>Active Tasks</h2>
+            <ul></ul>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- Registration Page Content -->
+        <div class="container" id="registrationPage">
+            <h1>Welcome to Task Manager</h1>
+            <h2>User Registration</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Enter name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="showLoginPage">Login</a></p>
+        </div>
+   
+
+    
+        <!-- Login Page Content -->
+        <div class="container" id="loginPage" style="display: none;">
+            <h1>Welcome to Task Manager</h1>
+            <h2>User Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="email" id="loginEmail" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" placeholder="Enter password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="showRegistrationPage">Register</a></p>
+        </div>
+    
+    
+
+    <div class="container" id="dashboardPage" style="display: none;">
+        <h1>Welcome to Task Manager Dashboard</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter task">
+            <button type="submit" id="add-task-btn">Add Task</button>
+        </form>
+        <div class="task-panel" id="activeTasks">
+            <h2>Active Tasks</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
